@@ -16,10 +16,10 @@ public class p14 {
       f.setSize(400, 400);
       f.setLayout(null);
       f.setVisible(true);
-      f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
    }
 
-   public static void main(String args[]) {
+   public static void main(String[] args) {
       new p14();
    }
 }
